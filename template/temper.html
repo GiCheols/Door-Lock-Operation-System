@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>실시간 온습도 확인</title>
+    </head>
+    <body>
+        <center><h2>실시간 온습도 확인</h2></center>
+
+        <table width="200" height="50" align="center">
+            <tr><th>온도</th>
+            <td bgcolor="skyblue" align="center">{{temper}}°C</td></tr>
+            <tr><th>습도</th>
+            <td bgcolor="skyblue" align="center">{{hum}}%</td></tr>
+        </table>
+        <br></br>
+        <form action="/" method="get">
+            <input type="submit" value="초기화면으로 돌아가기">
+        </form>
+    </body>
+</html>
